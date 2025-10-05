@@ -1,7 +1,7 @@
-A = int(input('Введите число: '))
-B = int(input('Введите число: '))
-if A > B:
-    for i in range(A,B-1,-1):
+numberA = int(input('Введите число: '))
+numberB = int(input('Введите число: '))
+if numberA > numberB:
+    for i in range(numberA,numberB-1,-1):
         if i%2 != 0:
             print(i)
 else:

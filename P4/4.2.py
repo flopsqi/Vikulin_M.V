@@ -1,8 +1,8 @@
-A = int(input('Введите число: '))
-B = int(input('Введите число: '))
-if A < B:
-    for i in range(A,B+1):
+numberA = int(input('Введите число: '))
+numberB = int(input('Введите число: '))
+if numberA < numberB:
+    for i in range(numberA,numberB+1):
         print(i,end='; ')
 else:
-    for i in range(A,B-1,-1):
+    for i in range(numberA,numberB-1,-1):
         print(i,end='; ')
