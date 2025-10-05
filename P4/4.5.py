@@ -1,5 +1,3 @@
 number = int(input('Введите число: '))
-numbers = range(number)
-for i in numbers:
-numbersProd = sum(pow(numbers,3))
-print(numbersProd)
+numbersprod = (number*(number+1)//2)**2
+print(numbersprod)
