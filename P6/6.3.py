@@ -1,0 +1,5 @@
+text = input('Введите текст: ')
+count = text.count('.')
+new_text = text.replace('.', '')
+print('Строка без точек: ',new_text)
+print('Количество удаленных символов: ',count)

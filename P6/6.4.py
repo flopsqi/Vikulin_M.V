@@ -1,0 +1,7 @@
+text = input('Введите текст: ')
+count_replace = text.count('а')
+new_text = text.replace('а', 'о')
+total_chars = len(text)
+print('Измененная строка: ',new_text)
+print('Количество замен: ',count_replace)
+print('Всего символов в строке: ',total_chars)

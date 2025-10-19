@@ -1,0 +1,5 @@
+text = input('Введите текст: ').lower()
+word_to_find = input('Введите слово для поиска: ').lower()
+words = text.split()
+count = words.count(word_to_find)
+print('Слово ',word_to_find,' встречается',count)
